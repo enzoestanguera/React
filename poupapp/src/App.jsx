@@ -1,9 +1,11 @@
-
+import logo from './assets/logo.png'
 function App() {
 
   return (
     <>
-    <h1>Poulapp</h1>
+   <aside>
+    <img src={logo} alt="Logo" />
+   </aside>
     </>
   )
 }
